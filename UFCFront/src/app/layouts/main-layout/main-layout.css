@@ -1,0 +1,36 @@
+/* Main Layout Styles */
+.main-header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.main-header nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.main-header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.main-header nav a:hover {
+    color: #f44336;
+}
+
+.main-content {
+    padding: 2rem;
+    background: #f9f9f9;
+    min-height: 80vh;
+}

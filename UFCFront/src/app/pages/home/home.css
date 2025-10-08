@@ -1,0 +1,25 @@
+.home-container {
+    padding: 1rem;
+}
+
+.home-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.home-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.home-container li {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.home-container li h3 {
+    margin: 0 0 0.5rem;
+}
